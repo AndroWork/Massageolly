@@ -2,8 +2,10 @@
 <resources>
     <color name="colorPrimary">#c7a788</color>
     <color name="colorPrimaryDark">#776258</color>
-    <color name="colorAccent">#D81B60</color>
     <color name="colorPurple">#31435b</color>
-
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
     <color name="black_overlay">#66000000</color>
 </resources>
