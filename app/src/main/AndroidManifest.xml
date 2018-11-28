@@ -11,16 +11,7 @@
         android:theme="@style/MyMaterialTheme">
         <activity
             android:name=".SplashScreen"
-<<<<<<< HEAD
             android:theme="@style/SplashTheme"></activity>
-=======
-            android:theme="@style/SplashTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
->>>>>>> 323e29ee6ab3023ef571ca8872eda0b9c2b91e90
         <activity
             android:name=".LogIn"
             android:theme="@style/SplashTheme" />
@@ -30,18 +21,15 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
-        <activity android:name=".ClientsList">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppTheme.NoActionBar" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
         <activity android:name=".RequestActivity"></activity>
-=======
->>>>>>> 323e29ee6ab3023ef571ca8872eda0b9c2b91e90
     </application>
 
 </manifest>
