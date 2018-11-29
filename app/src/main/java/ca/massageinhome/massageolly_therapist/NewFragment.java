@@ -41,6 +41,7 @@ public class NewFragment extends Fragment{
         recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
         recyclerView.setAdapter(mAdapter);
 
+
         prepareMovieData();
         return v;
     }
