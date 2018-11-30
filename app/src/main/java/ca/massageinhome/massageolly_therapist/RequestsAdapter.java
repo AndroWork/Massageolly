@@ -1,6 +1,8 @@
 package ca.massageinhome.massageolly_therapist;
 
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +16,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyViewHolder> {
 
         private List<Users> usersList;
+        private Activity activity;
 
         public class MyViewHolder extends RecyclerView.ViewHolder {
             public TextView name, type, category, time;
@@ -26,12 +29,20 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
                 category = (TextView) view.findViewById(R.id.user_category);
                 time = (TextView) view.findViewById(R.id.user_time);
                 image = view.findViewById(R.id.user_profile);
+
+                view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        activity.startActivity(new Intent(activity,RequestActivity.class));
+                    }
+                });
             }
         }
 
 
-        public RequestsAdapter(List<Users> usersList) {
+        public RequestsAdapter(List<Users> usersList,Activity activity) {
             this.usersList = usersList;
+            this.activity = activity;
         }
 
         @Override

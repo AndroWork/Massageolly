@@ -182,8 +182,9 @@
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Fill Form"
+            android:text="Intake Form"
             android:textAlignment="center"
+            android:id="@+id/id_start_form"
             android:textColor="@color/colorPrimaryDark"
             android:layout_gravity="center"
             android:textSize="15sp"
@@ -192,6 +193,7 @@
             android:layout_marginTop="10dp"
             android:layout_width="150dp"
             android:layout_height="40dp"
+            android:id="@+id/id_start_service"
             android:background="@drawable/inputs"
             android:text="Start Service"
             android:textAlignment="center"
