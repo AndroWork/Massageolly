@@ -31,7 +31,7 @@ public class RequestActivity extends AppCompatActivity  {
         if(linear2State==true){
             linear1.setVisibility(View.GONE);
             linear2.setVisibility(View.VISIBLE);
-        } 
+        }
 
         accept.setOnClickListener(new View.OnClickListener() {
             @Override

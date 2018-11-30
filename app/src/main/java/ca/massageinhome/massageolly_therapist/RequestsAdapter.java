@@ -28,6 +28,17 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
                 category = (TextView) view.findViewById(R.id.user_category);
                 time = (TextView) view.findViewById(R.id.user_time);
                 image = view.findViewById(R.id.user_profile);
+<<<<<<< HEAD
+=======
+
+                view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        RequestActivity.linear2State = false;
+                        activity.startActivity(new Intent(activity,RequestActivity.class));
+                    }
+                });
+>>>>>>> 3d909b09b22a37ba4816bb4c0c2a425e0ac49b62
             }
         }
 
