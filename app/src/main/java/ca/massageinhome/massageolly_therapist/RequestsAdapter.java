@@ -33,6 +33,7 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
                 view.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        RequestActivity.linear2State = false;
                         activity.startActivity(new Intent(activity,RequestActivity.class));
                     }
                 });
