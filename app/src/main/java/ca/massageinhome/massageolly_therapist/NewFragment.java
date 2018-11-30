@@ -35,7 +35,7 @@ public class NewFragment extends Fragment{
 
         View v = inflater.inflate(R.layout.fragmentnew, container, false);
         recyclerView = v.findViewById(R.id.recyclerView);
-        mAdapter = new RequestsAdapter(usersList);
+        mAdapter = new RequestsAdapter(usersList,getActivity());
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());

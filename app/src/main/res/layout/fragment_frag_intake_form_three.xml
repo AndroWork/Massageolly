@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragIntakeFormThree"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="11. Check what applies to you?"
+       android:textStyle="bold"
+       android:padding="5dp"
+       android:textColor="@android:color/black"/>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:orientation="horizontal">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contagious Skin" />
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open Sores/Wounds" />
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy Bruising" />
+
+            <CheckBox
+                android:id="@+id/checkbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent Injury" />
+
+            <CheckBox
+                android:id="@+id/checkbox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent Fracture" />
+
+            <CheckBox
+                android:id="@+id/checkbox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent Surgery" />
+
+            <CheckBox
+                android:id="@+id/checkbox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Artificial Joint" />
+
+            <CheckBox
+                android:id="@+id/checkbox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strain/Sprain" />
+
+            <CheckBox
+                android:id="@+id/checkbox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Fever" />
+
+            <CheckBox
+                android:id="@+id/checkbox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swollen Glands" />
+
+            <CheckBox
+                android:id="@+id/checkbox11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allergies/Sensitivity" />
+
+            <CheckBox
+                android:id="@+id/checkbox12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heart Condition" />
+
+            <CheckBox
+                android:id="@+id/checkbox13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Pressure" />
+
+            <CheckBox
+                android:id="@+id/checkbox14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Varicose Veins" />
+
+            <CheckBox
+                android:id="@+id/checkbox15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atheroscierosis" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkbox16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phlebitis" />
+            <CheckBox
+                android:id="@+id/checkbox17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joint Disorder" />
+            <CheckBox
+                android:id="@+id/checkbox18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deep Vein Thrombosis" />
+            <CheckBox
+                android:id="@+id/checkbox19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asteoporosis" />
+            <CheckBox
+                android:id="@+id/checkbox20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancer" />
+            <CheckBox
+                android:id="@+id/checkbox21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Epilepsy" />
+            <CheckBox
+                android:id="@+id/checkbox22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decreased Sensation" />
+            <CheckBox
+                android:id="@+id/checkbox23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Headaches/Migraines" />
+            <CheckBox
+                android:id="@+id/checkbox24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diabetes" />
+            <CheckBox
+                android:id="@+id/checkbox25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back/Neck Problems" />
+            <CheckBox
+                android:id="@+id/checkbox26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fibromyalgia" />
+            <CheckBox
+                android:id="@+id/checkbox27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TMU" />
+            <CheckBox
+                android:id="@+id/checkbox28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carpal Tunnel Syndrome" />
+            <CheckBox
+                android:id="@+id/checkbox29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tennis Elbow" />
+            <CheckBox
+                android:id="@+id/checkbox30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregnancy" />
+
+         </LinearLayout>
+
+      </LinearLayout>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:id="@+id/frag_submit"
+             android:text="Submit"
+             android:layout_marginTop="10dp"/>
+      </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
