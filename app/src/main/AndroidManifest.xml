@@ -28,7 +28,6 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
         <activity
             android:name=".IntakeForm"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -37,18 +36,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Therapist"></activity>
-=======
 
-        <activity android:name=".IntakeForm"
-            android:theme="@style/AppTheme.NoActionBar"
-
-            />
-
-        <activity android:name=".RequestActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity">
-        </activity>
->>>>>>> 8cb62ccf367c98731d186717e0f64d9e6ccf1392
     </application>
 
 </manifest>
