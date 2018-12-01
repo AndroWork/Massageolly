@@ -28,16 +28,15 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IntakeForm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RequestActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Therapist"></activity>
 
-        <activity android:name=".IntakeForm"
-            android:theme="@style/AppTheme.NoActionBar"
-
-            />
-
-        <activity android:name=".RequestActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity">
-        </activity>
     </application>
 
 </manifest>
