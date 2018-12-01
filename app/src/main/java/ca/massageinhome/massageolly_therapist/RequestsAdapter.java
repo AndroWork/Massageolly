@@ -1,10 +1,8 @@
 package ca.massageinhome.massageolly_therapist;
 
 
-<<<<<<< HEAD
-=======
+
 import android.app.Activity;
->>>>>>> 49e2216f9e6fc10d5a69d285c05b527c40a7799b
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -65,13 +63,6 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
             holder.category.setText(users.getCategory());
             holder.time.setText(users.getTime());
             holder.image.setImageResource(users.getImage());
-
-            holder.itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    
-                }
-            });
         }
 
         @Override
