@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".FragIntakeFormThree"
     android:orientation="vertical"
+    android:background="@android:color/white"
     android:padding="5dp">
 
    <TextView
@@ -219,7 +220,10 @@
              android:layout_gravity="center"
              android:id="@+id/frag_submit"
              android:text="Submit"
-             android:layout_marginTop="10dp"/>
+             android:layout_marginTop="10dp"
+             android:background="@drawable/inputs"
+             android:textColor="@color/colorPrimaryDark"
+             />
       </LinearLayout>
    </ScrollView>
 

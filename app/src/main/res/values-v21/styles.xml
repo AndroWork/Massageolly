@@ -3,7 +3,10 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+<<<<<<< HEAD
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+=======
+>>>>>>> 8cb62ccf367c98731d186717e0f64d9e6ccf1392
     </style>
     <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
         <item name="android:windowContentTransitions">true</item>

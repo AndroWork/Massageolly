@@ -1,9 +1,15 @@
 package ca.massageinhome.massageolly_therapist;
 
 
+<<<<<<< HEAD
 
 import android.app.Activity;
+=======
+import android.app.Activity;
+import android.content.Context;
+>>>>>>> 8cb62ccf367c98731d186717e0f64d9e6ccf1392
 import android.content.Intent;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +29,7 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
             public TextView name, type, category, time;
             public CircleImageView image;
 
+
             public MyViewHolder(View view) {
                 super(view);
                 name = (TextView) view.findViewById(R.id.user_name);
@@ -31,6 +38,7 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
                 time = (TextView) view.findViewById(R.id.user_time);
                 image = view.findViewById(R.id.user_profile);
 
+
                 view.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -38,11 +46,12 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
                         activity.startActivity(new Intent(activity,RequestActivity.class));
                     }
                 });
+
             }
         }
 
 
-        public RequestsAdapter(List<Users> usersList,Activity activity) {
+        public RequestsAdapter(List<Users> usersList, Activity activity) {
             this.usersList = usersList;
             this.activity = activity;
         }
@@ -63,6 +72,11 @@ public class RequestsAdapter extends RecyclerView.Adapter<RequestsAdapter.MyView
             holder.category.setText(users.getCategory());
             holder.time.setText(users.getTime());
             holder.image.setImageResource(users.getImage());
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8cb62ccf367c98731d186717e0f64d9e6ccf1392
         }
 
         @Override
