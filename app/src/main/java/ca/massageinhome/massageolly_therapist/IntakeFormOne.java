@@ -67,7 +67,7 @@ public class IntakeFormOne extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_intake_form_one, container, false);
-        Button button = view.findViewById(R.id.frag_next_1);
+        Button button = view.findViewById(R.id.frag_next_2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

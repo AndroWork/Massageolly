@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Massageolly_Therapist</string>
+    <string name="app_name">Massageolly Therapist</string>
 
     <string name="title_activity_log_in">LogIn</string>
     <string name="dummy_button">Dummy Button</string>
